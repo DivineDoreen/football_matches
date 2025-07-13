@@ -2,9 +2,6 @@ import requests
 from datetime import datetime
 import pytz
 
-API_TOKEN = '0b0716818dfd40abbbb7df7e576a7778'
-BOT_TOKEN = '8103026342:AAEqCGePEZOBcZw9r4lbozCZJRB-OWPWeuI'
-CHAT_ID = '5828803751'
 
 def get_today_matches():
     today = datetime.now(pytz.timezone("Africa/Lagos")).strftime('%Y-%m-%d')
