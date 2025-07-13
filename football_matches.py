@@ -2,10 +2,6 @@ import requests
 from datetime import datetime
 import pytz
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5c413b5f49b8c515030b2a1079b85b8654b14b67
 
 def get_today_matches():
     today = datetime.now(pytz.timezone("Africa/Lagos")).strftime('%Y-%m-%d')
