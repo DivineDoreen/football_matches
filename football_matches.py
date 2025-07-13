@@ -54,7 +54,7 @@ def format_matches(matches):
 
 def send_telegram_message(message):
     print("[send_telegram_message] Sending message to telegram...")
-    print("[sned_telegram_message] Message content:\n", message)
+    print("[send_telegram_message] Message content:\n", message)
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
